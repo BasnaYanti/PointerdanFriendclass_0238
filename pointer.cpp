@@ -12,6 +12,13 @@ int main(int argc, char const *argv[])
     c = &y;
     cout << "Alamat memori : " << c << endl;
     cout << "Nilai dari c : " << *c << endl;
+    
+    int &d = b;
+    cout << "Nilai" << d << endl;
+    cout << "reference " << &d << endl;
+
+    int f = 5;
+    int g = f;
 
     return 0;
 }
